@@ -1,0 +1,27 @@
+{
+  "_embedded": {"employeeList": [
+    {
+      "id": 1,
+      "firstName": "Bilbo",
+      "lastName": "Baggins",
+      "role": "burglar",
+      "name": "Bilbo Baggins",
+      "_links": {
+        "self": {"href": "http://localhost:8080/employees/1"},
+        "employees": {"href": "http://localhost:8080/employees"}
+      }
+    },
+    {
+      "id": 2,
+      "firstName": "Frodo",
+      "lastName": "Baggins",
+      "role": "thief",
+      "name": "Frodo Baggins",
+      "_links": {
+        "self": {"href": "http://localhost:8080/employees/2"},
+        "employees": {"href": "http://localhost:8080/employees"}
+      }
+    }
+  ]},
+  "_links": {"self": {"href": "http://localhost:8080/employees"}}
+}
